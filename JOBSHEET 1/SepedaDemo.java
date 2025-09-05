@@ -1,0 +1,27 @@
+public class SepedaDemo {
+    public static void main(String[] args) {
+        Sepeda spd1 = new Sepeda();
+        Sepeda spd2 = new Sepeda();
+        Sepeda spd3 = new Sepeda();
+        spd1.setMerek("Polygon");
+        spd1.setKecepatan(10);
+        spd1.setGear(2);
+        spd1.cetakStatus();
+
+        
+        spd2.setMerek("Wiim Cycle");
+        spd2.tambahKecepatan(10);
+        spd2.gantiGear(2);
+        spd2.tambahKecepatan(10);
+        spd2.gantiGear(3);
+        spd2.cetakStatus();
+
+
+        spd3.setMerek("Klinee");
+        spd3.tambahKecepatan(5);
+        spd3.gantiGear(7);
+        spd3.setTipeSuspensi("Gas suspension");
+        spd3.cetakStatus();
+    }
+
+}
